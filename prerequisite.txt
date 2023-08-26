@@ -1,0 +1,5 @@
+python installed 
+proper internet connection
+  --"dont use college wifi"
+  --"or any protected network"
+  --"use mobile hotspot without vpn or proxy"
