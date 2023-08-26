@@ -1,0 +1,5 @@
+Download ngrok from https://ngrok.com/download
+after download ,install the ngrok and config with your system and add it to your environment
+once the ngrok is setup
+go to the ngrok website login and copy the config token 
+paste the token in the command 
