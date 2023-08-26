@@ -1,0 +1,29 @@
+Easy 8 step PORT-FORWARDING
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+To start the server
+
+open cmd prompt in the directory on which you installed ngrok
+open the 2nd cmd prompt normally by pressing win+r
+    -- in second cmd prompt type for python old version "python -m SimpleHTTPServer 80" for python3.x "python -m http.server 80"
+      if port no. 80 is not working try different port because Ports below 1024 require root privileges. 
+      running this command as root is not a good idea - it opens up all kinds of security vulnerabilities.
+once the http server starts.
+open the another cmd prompt opened in the ngrok directory
+just type : ngrok http 80 <Port no. you gave in for python server>
+once the tunneling is done successfully.
+ngrok will return the link
+copy the link and paste in the browser or in given device around the globle which will open the directory which shows all the file and complete system files as directory eg: /downloads, /pictures, /videos
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+To stop the server 
+
+turn off the python server or ngrok server by pressing ctrl+c
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+::::NOTE::::
+**use the port forwarding wisely because ngrok is a intermediate server through which all the files will be transfered**
+**dont use this technique illegally**
+**dont tunnell the network where it is restricted to**
+**use only for educational, study and research purpose**
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    
